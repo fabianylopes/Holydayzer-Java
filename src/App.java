@@ -5,5 +5,7 @@ public class App {
 
         data.getHolidays("12/10/2023");
 
+        data.listHolidays();
+
     }
 }

@@ -20,6 +20,12 @@ public class Holidays {
         System.out.println("O dia " + holiday + " se refere ao feriado: " + day);
     }
 
+    public void listHolidays() {
+        holidays.forEach((key, value) -> {
+            System.out.println("Dia: " + key + "Feriado: " + value);
+        });
+    }
+
     public void holidaysList() {
         holidays.put("01/01/2023", "Confraternização mundial");
         holidays.put("21/02/2023", "Carnaval");
